@@ -67,7 +67,7 @@ const App = () => {
       </nav>
    
 
-    <section id='main' className='max-w-7xl mx-auto p-6'>
+    <section id='main' className='max-w-7xl mx-auto p-6 scroll-mt-20'>
 
       <div id='home' className=' mt-12 mb-6 pt-16 flex flex-col justify-center items-center pl-8'>
         <h1 className="tracking-wide font-semibold text-4xl sm:text-6xl lg:text-7xl text-center">
@@ -92,7 +92,7 @@ const App = () => {
 
 
 
-      <div id='features' className="my-20 flex flex-col p-4  jusity-center items-center">
+      <div id='features' className="my-20 flex flex-col p-4  jusity-center items-center scroll-mt-20">
         <div>
           <h2 className='text-xl text-center rounded-full bg-neutral-900 text-orange-500 inline-flex justify-center items-center h-12 w-36'>FEATURES</h2>
         </div>
@@ -124,7 +124,7 @@ const App = () => {
 
       <hr className='border-neutral-500 ' />
 
-      <div className='min-h-screen'  id="workflow">
+      <div className='min-h-screen'  id="workflow scroll-mt-20">
       <div className="my-16 flex flex-col justify-center items-center">
         <div>
         <h1 className="tracking-wide font-semibold text-4xl  lg:text-7xl text-center">
@@ -156,7 +156,7 @@ const App = () => {
       </div>
 
 
-      <div id='pricing' className="my-20 flex-flex-col justify-center">
+      <div id='pricing' className="my-20 flex-flex-col justify-center scroll-mt-20">
         <div>
           <h1 className="text-5xl text-center">
             Pricing
@@ -197,7 +197,7 @@ const App = () => {
       </div>
 
 
-      <div id='testimonials' className="my-24 flex-flex-col justify-center ">
+      <div id='testimonials' className="my-24 flex-flex-col justify-center scroll-mt-20">
         <div>
           <h1 className="text-5xl text-center tracking-wider">
             What people are saying
